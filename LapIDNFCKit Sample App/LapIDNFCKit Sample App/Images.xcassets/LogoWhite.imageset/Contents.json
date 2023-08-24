@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "LapID_Logo_Screen_White_1600px.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "LapID_Logo_Screen_White_1600px-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "LapID_Logo_Screen_White_1600px-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

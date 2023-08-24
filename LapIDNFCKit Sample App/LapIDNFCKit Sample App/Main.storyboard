@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22138.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22113"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LapIDNFCKit_Sample_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoWhite" translatesAutoresizingMaskIntoConstraints="NO" id="6ze-Om-gqn">
+                                <rect key="frame" x="0.0" y="90" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="XeX-jH-Gax"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NFCKit Sample App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPQ-Hn-3Dg">
+                                <rect key="frame" x="83.333333333333329" y="160" width="208.66666666666669" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCw-OG-c4K">
+                                <rect key="frame" x="77.666666666666686" y="379" width="220" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="QHj-Wh-gMW"/>
+                                    <constraint firstAttribute="width" constant="220" id="lgK-JQ-0ay"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="NFC Scan"/>
+                                <connections>
+                                    <action selector="nfcNotImmediatelyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BxF-MJ-dQy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9g-Xz-18U">
+                                <rect key="frame" x="77.666666666666686" y="457" width="220" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5AD-Qb-OnH"/>
+                                    <constraint firstAttribute="width" constant="220" id="APV-jM-ypq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="NFC Scan Immediately"/>
+                                <connections>
+                                    <action selector="nfcImmediatelyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8j8-tK-1gd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jte-ub-5Q8">
+                                <rect key="frame" x="77.666666666666686" y="301" width="220" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="2W3-zm-KPd"/>
+                                    <constraint firstAttribute="height" constant="70" id="VTy-nK-2Lj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Check Device Compatibility"/>
+                                <connections>
+                                    <action selector="checkDeviceCompatibilityTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQW-DK-HOM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0032706677450000002" green="0.193926394" blue="0.38587766890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ZCw-OG-c4K" secondAttribute="width" multiplier="1.70455" id="86M-Bg-CgY"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="920-bo-a8i"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="top" secondItem="jte-ub-5Q8" secondAttribute="bottom" constant="8" symbolic="YES" id="ASX-wF-hQH"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="width" secondItem="t9g-Xz-18U" secondAttribute="width" id="Grg-xB-WDg"/>
+                            <constraint firstAttribute="width" secondItem="jte-ub-5Q8" secondAttribute="width" multiplier="1.70455" id="J0r-3K-x6G"/>
+                            <constraint firstItem="NPQ-Hn-3Dg" firstAttribute="top" secondItem="6ze-Om-gqn" secondAttribute="bottom" constant="20" id="Lq5-Tk-veu"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="height" secondItem="t9g-Xz-18U" secondAttribute="height" id="MFo-L1-ZT5"/>
+                            <constraint firstItem="6ze-Om-gqn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="N0z-hj-dL2"/>
+                            <constraint firstItem="NPQ-Hn-3Dg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SqB-Dc-w4M"/>
+                            <constraint firstItem="jte-ub-5Q8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UMS-Gc-8Bs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6ze-Om-gqn" secondAttribute="trailing" id="bdS-ga-vxZ"/>
+                            <constraint firstItem="t9g-Xz-18U" firstAttribute="top" secondItem="ZCw-OG-c4K" secondAttribute="bottom" constant="8" symbolic="YES" id="byb-zC-Qd3"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="d5Z-W8-MWk"/>
+                            <constraint firstItem="6ze-Om-gqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="doh-RM-23S"/>
+                            <constraint firstItem="t9g-Xz-18U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fIf-qD-IhQ"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gIx-21-0H1"/>
+                            <constraint firstItem="ZCw-OG-c4K" firstAttribute="height" secondItem="jte-ub-5Q8" secondAttribute="height" id="xBD-s7-J0J"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="-28.078817733990149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoWhite" width="533.33331298828125" height="133.33332824707031"/>
+    </resources>
+</document>

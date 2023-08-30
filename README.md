@@ -1,4 +1,7 @@
-# LapIDNFCKit Sample App
+# nfc-kit-sample-ios
+
+![LapID](https://media.lapid.de/logo.svg)
 
 ## About
-Learn how to implement our [NFCKit](https://github.com/lapid-service-gmbh/nfc-kit-ios/) in your iOS app using this sample app
+
+This is an example app, which shows how to implement and handle the communication with the [LapID NFC Kit](https://github.com/lapid-service-gmbh/nfc-kit-ios/).

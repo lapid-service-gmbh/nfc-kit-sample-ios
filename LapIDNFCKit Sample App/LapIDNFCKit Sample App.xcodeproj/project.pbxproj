@@ -134,7 +134,6 @@
 			mainGroup = BBA4F55D2A97615700807A79;
 			packageReferences = (
 				BBA4F57D2A97618E00807A79 /* XCRemoteSwiftPackageReference "nfc-kit-ios" */,
-				BB83A25B2A97777000123804 /* XCRemoteSwiftPackageReference "nfc-kit-ios" */,
 			);
 			productRefGroup = BBA4F5672A97615700807A79 /* Products */;
 			projectDirPath = "";
@@ -390,20 +389,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BB83A25B2A97777000123804 /* XCRemoteSwiftPackageReference "nfc-kit-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lapid-service-gmbh/nfc-kit-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
-			};
-		};
 		BBA4F57D2A97618E00807A79 /* XCRemoteSwiftPackageReference "nfc-kit-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lapid-service-gmbh/nfc-kit-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
+				kind = exactVersion;
+				version = 1.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

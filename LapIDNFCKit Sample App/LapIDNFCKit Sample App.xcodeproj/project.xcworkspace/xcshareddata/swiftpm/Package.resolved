@@ -1,12 +1,13 @@
 {
+  "originHash" : "e406eb1925282e559a6d031b8ea7ea1d922194678dbd27e096e8e6a47386ab24",
   "pins" : [
     {
       "identity" : "lottie-spm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-spm.git",
       "state" : {
-        "revision" : "3e7eb8281ff9ac67e64a3a58a80c0aa9fa388b04",
-        "version" : "4.3.3"
+        "revision" : "1d29eccc24cc8b75bff9f6804155112c0ffc9605",
+        "version" : "4.4.3"
       }
     },
     {
@@ -14,10 +15,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lapid-service-gmbh/nfc-kit-ios",
       "state" : {
-        "revision" : "ea5c0c5818fda66f789ac716cda0f4d52a11c33e",
-        "version" : "1.0.5"
+        "revision" : "444a01b939f02f4619c7b347d833ad35cd319eb7",
+        "version" : "1.0.8"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

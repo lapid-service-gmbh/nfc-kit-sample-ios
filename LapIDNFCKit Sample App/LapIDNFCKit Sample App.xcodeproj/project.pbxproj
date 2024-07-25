@@ -44,12 +44,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB83A2362A976F2500123804 /* Servicses */ = {
+		BB83A2362A976F2500123804 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				BB83A2372A976F3A00123804 /* NFCService.swift */,
 			);
-			path = Servicses;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		BBA4F55D2A97615700807A79 = {
@@ -74,7 +74,7 @@
 				BBC91BE62A978AA30053E306 /* Main.storyboard */,
 				BBC91BE42A9785B30053E306 /* Images.xcassets */,
 				BB83A2392A9775B800123804 /* Info.plist */,
-				BB83A2362A976F2500123804 /* Servicses */,
+				BB83A2362A976F2500123804 /* Services */,
 				BBA4F5842A976C2A00807A79 /* LapIDNFCKit Sample App.entitlements */,
 				BBA4F5692A97615700807A79 /* AppDelegate.swift */,
 				BBA4F56B2A97615700807A79 /* SceneDelegate.swift */,
@@ -394,7 +394,7 @@
 			repositoryURL = "https://github.com/lapid-service-gmbh/nfc-kit-ios";
 			requirement = {
 				kind = exactVersion;
-				version = 1.0.8;
+				version = 1.0.9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

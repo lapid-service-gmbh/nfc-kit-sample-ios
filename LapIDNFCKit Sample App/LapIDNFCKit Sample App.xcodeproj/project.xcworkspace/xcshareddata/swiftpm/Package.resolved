@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-spm.git",
       "state" : {
-        "revision" : "1d29eccc24cc8b75bff9f6804155112c0ffc9605",
-        "version" : "4.4.3"
+        "revision" : "b842598f1295f3ffa1475b1580672d1fe5b83580",
+        "version" : "4.5.0"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lapid-service-gmbh/nfc-kit-ios",
       "state" : {
-        "revision" : "444a01b939f02f4619c7b347d833ad35cd319eb7",
-        "version" : "1.0.8"
+        "revision" : "25dc00e746aa556833cca5a9a9898bd921da59a1",
+        "version" : "1.0.9"
       }
     }
   ],
